@@ -1,0 +1,118 @@
+/* - Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+ */
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  background-image: url(images/pattern-background-desktop.svg);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contener {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 450px;
+  height: auto;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  padding-bottom: 2rem;
+  margin-top: 40px;
+}
+.mainimg {
+  border-radius: 1rem 1rem 0 0;
+}
+h2 {
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+  font-weight: 900;
+}
+p {
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: center;
+  margin: 0 4.5rem 1rem 4.5rem;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.music {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 98%);
+  margin: 1rem 0 1rem 0;
+  width: 70%;
+  border-radius: 0.4rem;
+}
+li {
+  list-style: none;
+}
+.music {
+  margin-left: 4.5rem;
+  width: 60%;
+  padding: 1rem 0;
+  border-radius: 0.3rem;
+}
+.music img {
+  margin-right: 0.5rem;
+  height: 40px;
+}
+.music ul li:first-child {
+  font-weight: 700;
+}
+.music ul li:last-child {
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  color: hsl(224, 23%, 55%);
+}
+.music a {
+  padding-left: 4rem;
+  color: hsl(245, 75%, 52%);
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4.5rem;
+  width: 80%;
+}
+.btn button:first-child {
+  font-size: 0.72rem;
+  margin: 0.6rem 0;
+  height: 2rem;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border: none;
+  border-radius: 0.4rem;
+  box-shadow: 1px;
+  box-shadow: 0 4px 10px 2px hsl(225, 100%, 98%);
+}
+.btn button:last-child {
+  font-size: 0.72rem;
+  height: 2rem;
+  background-color: hsl(225, 100%, 98%);
+  color: hsl(224, 23%, 55%);
+  border: none;
+  font-weight: 700;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
